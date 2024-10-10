@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_586e6a80433069c0153829c7b3b191ba {
+                #map_a8dbcc3f3ad4baa181a2378816ddafb0 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_586e6a80433069c0153829c7b3b191ba" ></div>
+            <div class="folium-map" id="map_a8dbcc3f3ad4baa181a2378816ddafb0" ></div>
         
 </body>
 <script>
     
     
-            var map_586e6a80433069c0153829c7b3b191ba = L.map(
-                "map_586e6a80433069c0153829c7b3b191ba",
+            var map_a8dbcc3f3ad4baa181a2378816ddafb0 = L.map(
+                "map_a8dbcc3f3ad4baa181a2378816ddafb0",
                 {
                     center: [-22.9068467, -43.1728965],
                     crs: L.CRS.EPSG3857,
@@ -60,33 +60,36 @@
 
         
     
-            var tile_layer_1df47086c015431da28645ba5f835810 = L.tileLayer(
+            var tile_layer_1cd4c45683e8e379694a2a76f94fd281 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Map data \u00a9 OpenStreetMap contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_1df47086c015431da28645ba5f835810.addTo(map_586e6a80433069c0153829c7b3b191ba);
+            tile_layer_1cd4c45683e8e379694a2a76f94fd281.addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-                var lat_lng_popup_d24ad51cd7098e85fdb39833d482d08b = L.popup();
+                var lat_lng_popup_7dfbd85a152e2622865192c9be5e6a61 = L.popup();
                 function latLngPop(e) {
-                    lat_lng_popup_d24ad51cd7098e85fdb39833d482d08b
+                    lat_lng_popup_7dfbd85a152e2622865192c9be5e6a61
                         .setLatLng(e.latlng)
                         .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
                                     "<br>Longitude: " + e.latlng.lng.toFixed(4))
-                        .openOn(map_586e6a80433069c0153829c7b3b191ba);
+                        .openOn(map_a8dbcc3f3ad4baa181a2378816ddafb0);
                     }
-                map_586e6a80433069c0153829c7b3b191ba.on('click', latLngPop);
+                map_a8dbcc3f3ad4baa181a2378816ddafb0.on('click', latLngPop);
             
     
-            var marker_942f5097088dc67267da86effa5e7993 = L.marker(
-                [-22.9098, -43.2238],
-                {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            tile_layer_1cd4c45683e8e379694a2a76f94fd281.addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_942f5097088dc67267da86effa5e7993.bindTooltip(
+            var marker_e364b958bfb8d15c1611851b86eeeb9a = L.marker(
+                [-22.9098, -43.2238],
+                {}
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
+        
+    
+            marker_e364b958bfb8d15c1611851b86eeeb9a.bindTooltip(
                 `<div>
                      Flamengo(Gasometro)
                  </div>`,
@@ -94,19 +97,19 @@
             );
         
     
-            var circle_e215b4092cf308ed1f76ecfe6dd87f7f = L.circle(
+            var circle_16a726fac9a6afc3b135c05b58707451 = L.circle(
                 [-22.9098, -43.2238],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            var marker_e4fa49cfe783c5636447d204bf9f8827 = L.marker(
+            var marker_5bce97b7af0aa9eda2e135a679396990 = L.marker(
                 [-22.8908, -43.2283],
                 {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_e4fa49cfe783c5636447d204bf9f8827.bindTooltip(
+            marker_5bce97b7af0aa9eda2e135a679396990.bindTooltip(
                 `<div>
                      São Januario (Vasco)
                  </div>`,
@@ -114,19 +117,19 @@
             );
         
     
-            var circle_5a94f8a1d22dbc70e19c155625728e2f = L.circle(
+            var circle_926161a8a61d58a1d3e16ec450b83ffc = L.circle(
                 [-22.8908, -43.2283],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            var marker_560c87a594c02a31d4cc939cf6505090 = L.marker(
+            var marker_4b43b2ec913e9de950a0590563d6d1ad = L.marker(
                 [-22.9117, -43.2303],
                 {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_560c87a594c02a31d4cc939cf6505090.bindTooltip(
+            marker_4b43b2ec913e9de950a0590563d6d1ad.bindTooltip(
                 `<div>
                      Maracanã (Fla Flu)
                  </div>`,
@@ -134,19 +137,19 @@
             );
         
     
-            var circle_df41eccf77167767fafbbd279f5f7a90 = L.circle(
+            var circle_ae6cf3b4126621e0ae9306ec646d71c8 = L.circle(
                 [-22.9117, -43.2303],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            var marker_d4deac54f7ee4939eaa535554f6e28a0 = L.marker(
+            var marker_fa195d8dc4fc6d7c671e2f6500d88ea4 = L.marker(
                 [-22.8932, -43.2925],
                 {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_d4deac54f7ee4939eaa535554f6e28a0.bindTooltip(
+            marker_fa195d8dc4fc6d7c671e2f6500d88ea4.bindTooltip(
                 `<div>
                      Engenhão (Botafogo)
                  </div>`,
@@ -154,19 +157,19 @@
             );
         
     
-            var circle_6e890cfec3f5ef769be26c445cac4323 = L.circle(
+            var circle_7b89096507ff553b923d0ca4dfb6cf78 = L.circle(
                 [-22.8932, -43.2925],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            var marker_a7f53ea6926f0a6234089109443507b5 = L.marker(
+            var marker_878bd473b1f68fd3df0fe5bb9f97b100 = L.marker(
                 [-22.8017, -43.2081],
                 {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_a7f53ea6926f0a6234089109443507b5.bindTooltip(
+            marker_878bd473b1f68fd3df0fe5bb9f97b100.bindTooltip(
                 `<div>
                      Estadio luso brasileiro (portuguesa)
                  </div>`,
@@ -174,19 +177,19 @@
             );
         
     
-            var circle_93234cb32a1a5fe3dcd2269ded31671f = L.circle(
+            var circle_05bef2c79f060d27f41c192d1be4d975 = L.circle(
                 [-22.8017, -43.2081],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            var marker_1e6ccc0404be171dcded4013140e8194 = L.marker(
+            var marker_e0ff566a4bfc37d9a94f4ce7cf31da3d = L.marker(
                 [-22.8697, -43.3373],
                 {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_1e6ccc0404be171dcded4013140e8194.bindTooltip(
+            marker_e0ff566a4bfc37d9a94f4ce7cf31da3d.bindTooltip(
                 `<div>
                      Estadio Aniceto Moscoso(Madureira)
                  </div>`,
@@ -194,19 +197,19 @@
             );
         
     
-            var circle_cd918630f497d32e6a37f7c1cd7767c4 = L.circle(
+            var circle_6374afdf256a2acca12a502bf4a27e36 = L.circle(
                 [-22.8697, -43.3373],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            var marker_0094b64c2492fdebe0773e6b8348a94a = L.marker(
+            var marker_dc5f5f61eee000c19dc532cfb0f0e5d1 = L.marker(
                 [-22.8726, -43.4564],
                 {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_0094b64c2492fdebe0773e6b8348a94a.bindTooltip(
+            marker_dc5f5f61eee000c19dc532cfb0f0e5d1.bindTooltip(
                 `<div>
                      Estadio de Moça Bonita (Bangu)
                  </div>`,
@@ -214,19 +217,19 @@
             );
         
     
-            var circle_09ca47b6e972ef9459a5db626ba136b8 = L.circle(
+            var circle_324e9cc0d88db59e367964066f5281d4 = L.circle(
                 [-22.8726, -43.4564],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            var marker_4fd12c5591c9efee76b163af221a6886 = L.marker(
+            var marker_02fbd727bafd07bcea5ce1116f120eab = L.marker(
                 [-22.748, -43.4609],
                 {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_4fd12c5591c9efee76b163af221a6886.bindTooltip(
+            marker_02fbd727bafd07bcea5ce1116f120eab.bindTooltip(
                 `<div>
                      Estádio Jânio Moraes (Nova Iguaçu)
                  </div>`,
@@ -234,19 +237,19 @@
             );
         
     
-            var circle_f12473ba10d21f5bb90533bdbf7b986c = L.circle(
+            var circle_9f4acbb4b00818a79483b131a266ff3d = L.circle(
                 [-22.748, -43.4609],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            var marker_f675af6b3777432e59782f2aa771cbbd = L.marker(
+            var marker_e0f9a5af7ebe68034563dfd5b4a14a57 = L.marker(
                 [-22.5083, -44.0969],
                 {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_f675af6b3777432e59782f2aa771cbbd.bindTooltip(
+            marker_e0f9a5af7ebe68034563dfd5b4a14a57.bindTooltip(
                 `<div>
                      Raulino de Oliveira (Volta Redonda)
                  </div>`,
@@ -254,19 +257,19 @@
             );
         
     
-            var circle_817499c8fefe784138281f2740e171d9 = L.circle(
+            var circle_8a62c6821190e1f6fc4e2dded13550a8 = L.circle(
                 [-22.5083, -44.0969],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            var marker_4e813155e9172b30727d52bc23c90dbf = L.marker(
+            var marker_5c7cbe1e89db9bfc4737d8db727c2529 = L.marker(
                 [-22.8956, -42.4772],
                 {}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
     
-            marker_4e813155e9172b30727d52bc23c90dbf.bindTooltip(
+            marker_5c7cbe1e89db9bfc4737d8db727c2529.bindTooltip(
                 `<div>
                      Estádio do Boa Vista
                  </div>`,
@@ -274,10 +277,13 @@
             );
         
     
-            var circle_9147d2c4b698121f54c5d117800dd85f = L.circle(
+            var circle_8240fce93a912a3541f7d712eaf0d163 = L.circle(
                 [-22.8956, -42.4772],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_586e6a80433069c0153829c7b3b191ba);
+            ).addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
+        
+    
+            tile_layer_1cd4c45683e8e379694a2a76f94fd281.addTo(map_a8dbcc3f3ad4baa181a2378816ddafb0);
         
 </script>
 </html>
